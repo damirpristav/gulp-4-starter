@@ -1,0 +1,26 @@
+@use '../base/variables' as vars;
+
+section {
+  padding: 100px 0;
+  text-align: center;
+  background-color: vars.$secondary-color;
+  color: vars.$text-color;
+  display: flex;
+  flex-direction: column;
+
+  h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+
+  p {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+}
